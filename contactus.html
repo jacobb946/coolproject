@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Contact Us</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <link rel="stylesheet" type="text/css" href="contactus.css">
+  <link rel="icon" type="image/png" href="unnamed.png">
+  <meta name="robots" content="noindex">
+  <style>
+  </style>
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <img src="unnamed.png" alt="dogedog" class="topleftimage">
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contactus.html">Contact</a>
+    </div>
+  </header>
+
+  <main>
+    <h1 class="contactustitle">Contact Us</h1>
+    <hr>
+    <br>
+    <div class="center-container">
+      <button>
+        <a href="mailto:jacobbrock946123@gmail.com" class="email-button" target="_blank">Compose Email</a>
+      </button>
+      <button>
+        <a href="sms:+18634468094?&body=Hello%20there%21" class="sms-button">Text Us With a Message</a>
+      </button>
+    </div>
+    <br>
+    <br>
+
+    <div class="contactusstatement">
+      <p class="contactusstatement">Like our website? Give us a rating!</p>
+    </div>
+
+    <!-- Star Rating Section -->
+    <div class="star-rating-container">
+      <div class="stars">
+        <span class="star" data-value="1">&#9733;</span>
+        <span class="star" data-value="2">&#9733;</span>
+        <span class="star" data-value="3">&#9733;</span>
+        <span class="star" data-value="4">&#9733;</span>
+        <span class="star" data-value="5">&#9733;</span>
+      </div>
+      <p class="rating-label">No votes yet</p>
+    </div>
+
+    <!-- Feedback Form -->
+    <div class="feedback-form" id="feedbackForm">
+      <h3>We're sorry! Please tell us what went wrong:</h3>
+      <textarea id="feedbackText" rows="5" placeholder="Write your feedback here..."></textarea>
+      <button onclick="sendFeedback()">Submit Feedback</button>
+    </div>
+    <script src="contactus.js"></script>
+  </main>
+
+  <footer>
+    <p>©2025. All Rights Reserved.</p>
+  </footer>
+
+<script>
+  </script>
+
+</body>
+</html>

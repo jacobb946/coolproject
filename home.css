@@ -1,0 +1,59 @@
+   /* Reset default body margin */
+    body { margin: 0; font-family: Arial, sans-serif; }
+
+    /* Navbar container */
+    .navbar {
+      background-color: #333;     /* full navbar background */
+      width: 100vw;               /* spans full viewport width */
+      padding: 7.5px 20px;        /* slightly thinner navbar */
+      display: flex;              /* horizontal layout */
+      align-items: center;        /* vertically center items */
+      justify-content: flex-end;  /* aligns links to the right */
+      gap: 20px;                  /* space between links */
+      box-sizing: border-box;     /* include padding in width */
+      word-spacing: 18px;
+    }
+
+    /* Navbar links */
+    .navbar a {
+      color: white;
+      text-decoration: none;      /* removes underline */
+      font-size: 18px;
+    }
+
+    /* Hover effect for links */
+    .navbar a:hover { color: #ddd; }
+
+    /* Dogedog icon */
+    .topleftimage {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;       /* makes it circular */
+      object-fit: cover;        /* ensures image fits in circle */
+      margin-right: auto;       /* pushes links to the right */
+      margin-left: 10px;        /* a few pixels from left edge */
+      flex-shrink: 0;
+    }
+
+    /* Page title */
+    .hometitle {
+      text-align: center;
+      text-decoration: underline;
+      margin-top: 20px;
+    }
+
+    /* Main content */
+    main { min-height: 900px; }
+
+    /* Footer */
+    footer {
+      background-color: #5b5c5c;
+      color: white;
+      text-align: center;
+      width: 100vw;
+      box-sizing: border-box;
+      text-decoration: underline;
+      min-height: 50px;
+      padding: 15px 0;
+      font-size: 14px;
+    }

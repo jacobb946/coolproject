@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Terminal</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="terminal-body">
+    <div id="terminal-container">
+        <div id="terminal-log">
+            <p>Welcome, ADMIN. Type 'help' for commands.</p>
+        </div>
+        <div class="terminal-input-area">
+            <span>> </span>
+            <input type="text" id="terminal-input" autofocus>
+            <!-- Blinking cursor is simulated via CSS/JS -->
+            <span class="cursor" id="cursor"></span>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
